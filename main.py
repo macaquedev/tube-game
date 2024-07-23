@@ -55,7 +55,7 @@ if __name__ == "__main__":
         destination = random.choice(station_set)
     print(f"Your starting point is: {start}.")
     print(f"Your finishing point is: {destination}.")
-
+    """
     curr_node = start
     user_path = [start]
     invalid_stations = []
@@ -106,7 +106,7 @@ if __name__ == "__main__":
                 print(station)
     else:
         print("You failed!")
-
+    """
     distance_graphs = []
     for line in tube_lines[start]:
         distances = defaultdict(lambda: (float('inf'), float('inf'), None))
